@@ -69,3 +69,5 @@ docker build -t blog . --publish 27017:27017 mongo
 docker run -it -p 3000:3000 --network blog-environment blog
 ```
 
+7- Para finalizar, dirigirse en el navegador a http://localhost:3000/ , donde Octopus App ya esta siendo ejecutada y lista para ser usada. 
+
